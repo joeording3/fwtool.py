@@ -3,7 +3,7 @@ import io
 try:
  from pycryptodome.Util.strxor import strxor
 except ImportError:
- from Crypto.Util.strxor import strxor
+ from pycrypto.Util.strxor import strxor
 
 from ..util import *
 
